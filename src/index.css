@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.photo-item {
+  max-width: 400px; /* Maksymalna szerokość zdjęcia */
+  max-height: 400px; /* Maksymalna wysokość zdjęcia */
+}
