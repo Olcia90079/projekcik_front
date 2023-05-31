@@ -23,8 +23,8 @@ const PhotoForm = () => {
 
   return (
     <form onSubmit={addPhoto}>
-      <input type="text" name="title" value={title} onChange={updateTitle} />
-      <input type="text" name="url" value={url} onChange={updateUrl} />
+      <input type="text" name="title" placeholder="Dodaj tytuł..." value={title} onChange={updateTitle} />
+      <input type="text" name="url" placeholder="Dodaj url..." value={url} onChange={updateUrl} />
       <button>Add photo</button>
     </form>
   );
